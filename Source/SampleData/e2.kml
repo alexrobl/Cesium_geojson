@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="estaciones" id="estaciones">
+	<SimpleField name="fid" type="string"></SimpleField>
+	<SimpleField name="Lugar" type="string"></SimpleField>
+	<SimpleField name="Latitud" type="string"></SimpleField>
+	<SimpleField name="Ubicaciรณn" type="string"></SimpleField>
+	<SimpleField name="Longitud" type="string"></SimpleField>
+	<SimpleField name="FID2" type="string"></SimpleField>
+</Schema>
+<Folder><name>estaciones</name>
+  <Placemark>
+	<name>Carvajal</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">1</SimpleData>
+		<SimpleData name="Lugar">Carvajal</SimpleData>
+		<SimpleData name="Latitud">4,595629</SimpleData>
+		<SimpleData name="Ubicaciรณn">Autopista Sur No, 63-40</SimpleData>
+		<SimpleData name="Longitud">-74,148583</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.148583,4.59562899984909,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Centro de Alto Rendimiento</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">2</SimpleData>
+		<SimpleData name="Lugar">Centro de Alto Rendimiento</SimpleData>
+		<SimpleData name="Latitud">4,658479</SimpleData>
+		<SimpleData name="Ubicaciรณn">Calle 63 No, 59A - 06</SimpleData>
+		<SimpleData name="Longitud">-74,083967</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.083967,4.65847899984705,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Fontibon</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">3</SimpleData>
+		<SimpleData name="Lugar">Fontibon</SimpleData>
+		<SimpleData name="Latitud">4,670113</SimpleData>
+		<SimpleData name="Ubicaciรณn">Kr 96 G No, 17 B - 49</SimpleData>
+		<SimpleData name="Longitud">-74,14155</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.14155,4.67011299984666,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Guaymaral</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">4</SimpleData>
+		<SimpleData name="Lugar">Guaymaral</SimpleData>
+		<SimpleData name="Latitud">4,783746</SimpleData>
+		<SimpleData name="Ubicaciรณn">Autopista Norte No, 205 - 59</SimpleData>
+		<SimpleData name="Longitud">-74,043783</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.043783,4.78374599984297,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Kennedy</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">5</SimpleData>
+		<SimpleData name="Lugar">Kennedy</SimpleData>
+		<SimpleData name="Latitud">4,625062</SimpleData>
+		<SimpleData name="Ubicaciรณn">Kr 80 No, 40-55 Sur</SimpleData>
+		<SimpleData name="Longitud">-74,161333</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.161333,4.62506199984813,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Las Ferias</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">6</SimpleData>
+		<SimpleData name="Lugar">Las Ferias</SimpleData>
+		<SimpleData name="Latitud">4,690713</SimpleData>
+		<SimpleData name="Ubicaciรณn">Av, Calle 80 No, 69 Q - 50</SimpleData>
+		<SimpleData name="Longitud">-74,082483</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.082483,4.69071299984599,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Puente Aranda</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">7</SimpleData>
+		<SimpleData name="Lugar">Puente Aranda</SimpleData>
+		<SimpleData name="Latitud">4,631779</SimpleData>
+		<SimpleData name="Ubicaciรณn">Calle 10 No, 65-28</SimpleData>
+		<SimpleData name="Longitud">-74,117483</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.117483,4.63177899984791,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Sagrado Corazon</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">8</SimpleData>
+		<SimpleData name="Lugar">Sagrado Corazon</SimpleData>
+		<SimpleData name="Latitud">4,625562</SimpleData>
+		<SimpleData name="Ubicaciรณn">Calle 37 No, 8-40</SimpleData>
+		<SimpleData name="Longitud">-74,066867</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.066867,4.62556199984812,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>San Cristobal</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">9</SimpleData>
+		<SimpleData name="Lugar">San Cristobal</SimpleData>
+		<SimpleData name="Latitud">4,572662</SimpleData>
+		<SimpleData name="Ubicaciรณn">Kr 2 Este No 12 - 78 Sur</SimpleData>
+		<SimpleData name="Longitud">-74,0838</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.0838,4.57266199984984,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Suba</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">10</SimpleData>
+		<SimpleData name="Lugar">Suba</SimpleData>
+		<SimpleData name="Latitud">4,761363</SimpleData>
+		<SimpleData name="Ubicaciรณn">Kr 111No, 159A - 61</SimpleData>
+		<SimpleData name="Longitud">-74,093483</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.093483,4.7613629998437,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Tunal</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">11</SimpleData>
+		<SimpleData name="Lugar">Tunal</SimpleData>
+		<SimpleData name="Latitud">4,576296</SimpleData>
+		<SimpleData name="Ubicaciรณn">Kr 24 No, 49 - 86 Sur</SimpleData>
+		<SimpleData name="Longitud">-74,130967</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.130967,4.57629599984972,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Usaquen</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">12</SimpleData>
+		<SimpleData name="Lugar">Usaquen</SimpleData>
+		<SimpleData name="Latitud">4,710363</SimpleData>
+		<SimpleData name="Ubicaciรณn">Kr 7 B Bis No, 132 - 11</SimpleData>
+		<SimpleData name="Longitud">-74,030417</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.030417,4.71036299984535,10</coordinates></Point>
+  </Placemark>
+  <Placemark>
+	<name>Unidad Movil</name>
+	<ExtendedData><SchemaData schemaUrl="#estaciones">
+		<SimpleData name="fid">13</SimpleData>
+		<SimpleData name="Lugar">Unidad Movil</SimpleData>
+		<SimpleData name="Latitud">4,764396</SimpleData>
+		<SimpleData name="Ubicaciรณn">AK 7 Calle 60</SimpleData>
+		<SimpleData name="Longitud">-74,027572</SimpleData>
+	</SchemaData></ExtendedData>
+      <Point><coordinates>-74.027572,4.76439599984359,10</coordinates></Point>
+  </Placemark>
+</Folder>
+</Document></kml>
