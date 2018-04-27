@@ -140,14 +140,14 @@
                         var posicion = miEntidad.polygon.hierarchy.getValue().positions[0];
 			miEntidad.position = posicion;
                         miEntidad.polygon.height = 0;
-                        var area=miEntidad.properties.AREA/10000;
+                        var area=miEntidad.properties.PIB;
                         console.log(area);
-                        miEntidad.polygon.extrudedHeight = area*100;
+                        miEntidad.polygon.extrudedHeight = area*15000;
 			miEntidad.label= {
 			    text : miEntidad.properties.NOMBRE_DPT
 			};
 
-			miEntidad.description="<h1>"+miEntidad.properties.NOMBRE_DPT+"</h1><p>Tiene un área total de "+miEntidad.properties.AREA
+			miEntidad.description="<h1>"+miEntidad.properties.NOMBRE_DPT+"</h1><p>Tiene un área total de "+miEntidad.properties.PIB
 						+" lo cual equivale a un "+Math.round(area)+"% del total del país</p>";
 
 			miEntidad.label.scaleByDistance = new Cesium.NearFarScalar(1.5e2, 1.5, 8.0e6, 0.0);
