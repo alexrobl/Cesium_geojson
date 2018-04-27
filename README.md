@@ -18,4 +18,7 @@ las urls disponibles
 
 
 navegue a `http://localhost:8080/` - muestra un vuelo sencillo con algunos puntos de estaciones metereologicas
+
 navegue a `http://localhost:8080/poblacion.html` - muestra en 3D la representacion en alturas de la poblaciòn de los departamentos de colombia
+
+navegue a `http://localhost:8080/PIB.html` - muestra en 3D la representacion en alturas del PIB de los departamentos de colombia
